@@ -1,0 +1,6 @@
+/matrizes
+/resultado
+exe
+*.o
+gerarmatriz
+multiplicar_matriz
