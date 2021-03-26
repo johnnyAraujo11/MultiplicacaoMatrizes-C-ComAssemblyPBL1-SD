@@ -1,9 +1,9 @@
 #include <stdio.h>
 #include <time.h>
 #include <stdlib.h>
+#include "mult.h"
 
-
-int **alocar_Matriz(int tamanho);
+int **alocar_Matriz(int tamanho);   
 void desalocar_Matriz(int **matriz, int tamanho);
 
 int main(){
@@ -41,16 +41,15 @@ int main(){
    fclose(fileB);
 
   //abrir o arquivo para escrita e escrever o resultado da multiplicaçãod
-   result_of_matriz = fopen("./resultado/result_matriz.txt", "w");
+   result_of_matriz = fopen("./resultado/result_matriz100.txt", "w");
 
-   
   
    int i=0,j=0,k=0;
    int resposta=0, cont=0, soma=0, temp=0, a=0;
  
    // início da contagem do tempo
    inicio = clock();
-
+   /*
    asm volatile("jmp .For1\n\t");  // salto para o label
  
    asm volatile(".Mult:");
@@ -95,7 +94,10 @@ int main(){
                    j=0;
    asm volatile(  "cmp        %[tam_i], %[tam] \n\t"
                   "jl         .For2    \n\t"
-                  ::[tam_i]"r"(i),[tam]"r"(sizeA));
+                  ::[tam_i]"r"(i),[tam]"r"(sizeA));*/
+
+   multiplicar(matrizA, matrizB,sizeA, result_of_matriz);
+
 
    //fim da contagem do tempo
    fim = clock();
