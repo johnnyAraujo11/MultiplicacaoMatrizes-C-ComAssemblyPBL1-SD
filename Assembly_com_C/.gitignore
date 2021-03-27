@@ -5,3 +5,5 @@ exe
 gerarmatriz
 multiplicar_matriz
 executavel
+matriz
+objeto/*.o
