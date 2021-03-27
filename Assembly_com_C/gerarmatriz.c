@@ -6,15 +6,15 @@ void  add_values_in_file();
 int ramdom_int();
 
 int main(){  
-    int set = 10;  
+    int set = 4;  
     FILE *fileA, *fileB;
 
     // Necessário para que sempre seja gerado um número novo na função rand()
     srand(time(NULL));
     
     //abrir arquivo se existir, não existindo cria-o
-    fileA = fopen("./matrizes/matrizA10.txt", "w");
-    fileB = fopen("./matrizes/matrizB10.txt", "w");
+    fileA = fopen("./matrizes/matrizA4.txt", "w");
+    fileB = fopen("./matrizes/matrizB4.txt", "w");
    
     //adiciona o tamanho da matriz na primeira linha de cada arquivo
     fprintf(fileA,"%d%s",set,"\n");
