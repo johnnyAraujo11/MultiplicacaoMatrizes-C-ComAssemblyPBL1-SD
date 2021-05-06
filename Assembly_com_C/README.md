@@ -32,4 +32,4 @@ Há nessa pasta os arquivos para rodar esse código:
 
 ## Depois da execução:
     O código era executar e quando acabar mostrar o tempo em segundos que levou para rodar o código da multiplicação
-    Quando mair a matriz maior o tempo irá levar
+    Quando maior a matriz mais tempo irá levar
