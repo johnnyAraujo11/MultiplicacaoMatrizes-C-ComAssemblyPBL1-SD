@@ -6,7 +6,7 @@
 ## Passo para executar:
 
     1° Ter as pastas matrizes(onde estão as matrizes de entrada) e resultado(o resultado das multiplicação),
-    gere a pasta se não tiver como comando "make pasta"
+    gere a pasta se não tiver com comando "make pasta"
 
     2° Gerar as matrizes com extensão txt dentro do arquivo matrizes do arquivo, "gerarmatriz.c" e execute o
        comando "make matrizarq". 
@@ -22,4 +22,4 @@
         
 ## Depois da execução:
     O código era executar e quando acabar mostrar o tempo em segundos que levou para rodar o código da multiplicação
-    Quando mair a matriz maior o tempo irá levar
+    Quando maior a matriz maior o tempo irá levar.
